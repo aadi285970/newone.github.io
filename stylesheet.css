@@ -1,0 +1,228 @@
+body{
+	font-family: Arial, Helvetica; 
+	margin: 0;
+}
+@media screen and (max-width: 768px){
+	.main-header .top-container .emotion .overview {
+		flex-direction: column;
+	}
+}
+img:hover{
+	 transform: scale(1.1);
+	 transition: 0.8s;
+
+}
+.main-header{
+	display: flex;
+	flex-direction: row;
+	background: black;
+	align-items: right;
+	margin-bottom: 0px;	
+}
+.main-header box-1 {
+	flex: 1;
+	padding-left: 20px;
+}
+.main-header box-2 {
+	flex: 3;
+	/*align-items: center;*/
+	padding-top: 10px;
+	padding-right: 150px;
+}
+.main-header box-3 {
+	flex: 1;
+}
+#navbar ul{
+	padding-top:0;
+	padding-left: 0;
+	list-style: none;
+	position: relative;
+}
+#navbar ul li{
+	display:inline;
+}
+#navbar a{
+	font-size: 16px;
+	padding-right:15px;
+	color: white;
+	text-decoration: none;
+}
+#navbar a:hover{
+	text-decoration: underline #DDB321;
+	color: white;
+}
+#navbar a:visted{
+	text-decoration: none;
+	color: white;
+}
+#navbar a:active{
+	text-decoration: none;
+	color: white;
+}
+
+
+.top-container{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	flex-direction: column;
+	background-image: url('Images/Content1.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	/*min-height: 300px;
+	box-sizing: border-box;*/
+	background-position:  center center;
+	background-size: cover;
+	position: absolute;
+	top: 79px;
+	width: 100%;
+	height: 300px
+
+}
+.top-container h1{
+	text-shadow: 2px 2px 6px #000;
+	color: white;
+	padding-top: 50px;
+	margin-bottom: 0px;
+}
+.top-container .box1 h3{
+	background-color: white;
+	max-width: 350px;
+	margin-top: 0px;
+	text-align: center;
+}
+#button1{
+	color: white;
+	background: #DDB321;
+	padding: 10px 20px;
+	border-color: transparent;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+.emotion{
+	margin-top: 290px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+
+}
+.box-4{
+	flex: 1;
+	
+}
+.box-5{
+	flex: 3;
+	align-items: center;
+	margin-top: 170px;	
+	margin-right: 15px;
+	margin-left: 20px;
+	margin-bottom: 0px;
+}
+.box-5 h2{
+	text-shadow: 2px 2px 6px #000;
+}
+
+.box-6{
+	flex: 1;
+}
+.button2{
+	color: white;
+	background: #DDB321;
+	padding: 10px 20px;
+	border-color: transparent;
+	font-size: 18px;
+	cursor: pointer;
+	border-radius: 5px;
+
+}
+.button2:hover{
+	color: red;
+	background: white;
+	letter-spacing: 1px;
+	transition: 0.5s ease;
+	-webkit-box-shadow:0px 5px 40px -10px; rgba(0, 0, 0, 57);
+	-moz-box-shadow:0px, 5px 40px -10px; rgba(0, 0, 0, 57);
+}
+.overview{
+	margin-top: 0px;
+	display: flex;
+	flex-direction: row;
+}
+.box-7 h2{
+	flex: 1;
+	text-shadow: 2px 2px 6px #000;
+	padding-top: 100px;
+
+	
+}
+.box-8{
+	flex: 1;
+
+	
+}
+.button3{
+	color: white;
+	background: #DDB321;
+	padding: 10px 20px;
+	border-color: transparent;
+	font-size: 18px;
+	cursor: pointer;
+	border-radius: 5px;
+
+}
+.button3:hover{
+	color: #DDB321;
+	background: none;
+	letter-spacing: 2px;
+	transition: 0.5s ease;
+	box-shadow:0px 5px 40px -10px; rgba(0, 0, 0, 57);
+	box-shadow:0px, 5px 40px -10px; rgba(0, 0, 0, 57);
+}
+.gallery-news{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+.news-image{
+	padding: 5px;
+}
+.news-image img:hover{
+	opacity: 0.8;
+	transition: 0.8s;
+
+}
+.gallery-events{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+.events-image{
+	padding: 5px;
+}
+.events-image img:hover{
+	opacity: 0.8;
+	transition: 0.8s;
+
+}
+.fix-button{
+	position: fixed;
+	right: 0px;
+	width: 20%;
+	color: white;
+	background: #DDB321;
+	margin-top: 300px;
+	padding: 10px 20px;
+	border-color: transparent;
+	font-size: 18px;
+	text-align: left;
+	border-radius: 50px 0px 0px 0px;
+}
+
+footer{
+	background-color: black;
+	color: white;
+	padding: 4px;
+}
